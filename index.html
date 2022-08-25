@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Api Via Cep</title>
+</head>
+<body>
+    <header></header>
+    <main> 
+        <div class="addressSearch">
+            <h1>Consultando um CEP</h1>
+            <input class="inputData" type="number" name="" id="cep" placeholder="Digite seu Cep">
+            <div class="btnSearch">
+                <input class="inpBtn" type="button" value="Pesquisar" onclick="addressSearch()">
+                <input class="inpBtn" type="button" value="Nova Pesquisa" onclick="cleanFields()">
+            </div>
+            <div id="resultado">
+                <div id="dataResults"></div>                
+            </div>
+            <div id="climateResults">
+                <div id="dataClimateResults"></div>
+             </div>              
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
